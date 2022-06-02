@@ -15,6 +15,11 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+    
+        <div>
+          <a href="https://tutv.dev/hello-world?abc=1">Link with https</a>
+          <a href="demoo://hello-world?abc=1">Link with schema</a>
+        </div>
       </main>
 
       <Footer />

@@ -23,6 +23,9 @@ export default function Home() {
 
                     <p></p>
                     <a href="/hello-word?from-domain=1">From main domain</a>
+
+                    <p></p>
+                    <a href="https://medium.com/swlh">Medium</a>
                 </div>
             </main>
 

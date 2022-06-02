@@ -22,7 +22,7 @@ export default function Home() {
                     <a href="demoo://hello-world?abc=1">Link with schema</a>
 
                     <p></p>
-                    <a href="/hello-word?from-domain=1">From main domain</a>
+                    <a href="https://cuskitt.com/hello-word?from-domain=1">From main domain</a>
 
                     <p></p>
                     <a href="https://medium.com/swlh">Medium</a>

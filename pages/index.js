@@ -18,6 +18,7 @@ export default function Home() {
     
         <div>
           <a href="https://tutv.dev/hello-world?abc=1">Link with https</a>
+          <p></p>
           <a href="demoo://hello-world?abc=1">Link with schema</a>
         </div>
       </main>

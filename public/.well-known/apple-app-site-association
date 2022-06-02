@@ -1,13 +1,12 @@
 {
   "applinks": {
     "apps": [],
-    "details": [
-      {
-        "appID": "LQJWENR567.com.cuskitt.demomovies",
+    "details": {
+      "LQJWENR567.com.cuskitt.demomovies": {
         "paths": [
           "*"
         ]
       }
-    ]
+    }
   }
 }

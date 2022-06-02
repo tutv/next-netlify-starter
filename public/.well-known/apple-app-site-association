@@ -1,9 +1,13 @@
 {
   "applinks": {
-    "apps": [], // This is usually left empty, but still must be included
-    "details": [{
-      "appID": "LQJWENR567.com.cuskitt.demomovies",
-      "paths": ["/*"]
-    }]
+    "apps": [],
+    "details": [
+      {
+        "appID": "LQJWENR567.com.cuskitt.demomovies",
+        "paths": [
+          "/*"
+        ]
+      }
+    ]
   }
 }

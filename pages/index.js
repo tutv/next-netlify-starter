@@ -4,11 +4,11 @@ import Footer from '@components/Footer'
 import {useEffect} from "react"
 
 export default function Home() {
-    useEffect(() => {
-        setTimeout(() => {
-            window.location.href = 'demoo://hello-world?abc=1'
-        }, 100)
-    }, [])
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         window.location.href = 'demoo://hello-world?abc=1'
+    //     }, 100)
+    // }, [])
 
     return (
         <div className="container">

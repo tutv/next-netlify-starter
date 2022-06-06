@@ -1,8 +1,15 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import {useEffect} from "react"
 
 export default function Home() {
+    useEffect(() => {
+        setTimeout(() => {
+            window.location.href = 'demoo://hello-world?abc=1'
+        }, 100)
+    }, [])
+
     return (
         <div className="container">
             <Head>
@@ -17,8 +24,6 @@ export default function Home() {
                 </p>
 
                 <div>
-                    <a href="https://tutv.dev/hello-world?abc=1">Link with https</a>
-                    <p></p>
                     <a href="demoo://hello-world?abc=1">Link with schema</a>
 
                     <p></p>

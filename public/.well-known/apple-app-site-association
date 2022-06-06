@@ -5,7 +5,7 @@
       {
         "appID": "LQJWENR567.com.cuskitt.demomovies",
         "paths": [
-          "*"
+          "*", "/"
         ]
       }
     ]
